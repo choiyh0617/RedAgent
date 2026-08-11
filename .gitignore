@@ -1,0 +1,16 @@
+.venv/
+Library/
+__pycache__/
+*.pyc
+
+.env.authorized-target
+
+.pentestflow-analysis-cache.sqlite3
+.pentestflow-validation-cache.sqlite3
+.pentestflow-rag/
+pentestflow.db
+
+reports/*
+!reports/.gitkeep
+
+eval/results/*.json
