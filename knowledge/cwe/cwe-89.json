@@ -1,0 +1,15 @@
+{
+  "id": "cwe-89",
+  "source": "CWE",
+  "title": "CWE-89 Improper Neutralization of Special Elements used in an SQL Command",
+  "content": "SQL injection occurs when application input reaches a database query without parameterization. Preferred defenses are parameterized queries, least-privilege database accounts, strict allow-list validation, and safer ORM query construction.",
+  "category": "sql-injection",
+  "cwe_id": "CWE-89",
+  "reference": "https://cwe.mitre.org/data/definitions/89.html",
+  "metadata": {
+    "tags": [
+      "sqli",
+      "injection"
+    ]
+  }
+}

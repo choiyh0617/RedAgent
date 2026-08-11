@@ -1,0 +1,1 @@
+Authentication weaknesses often appear as weak password policy, missing rate limiting, or exposed password reset flows. Evidence should focus on observable behavior and avoid brute force or credential stuffing during validation.
