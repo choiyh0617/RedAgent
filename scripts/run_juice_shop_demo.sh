@@ -52,3 +52,14 @@ echo "Rebuilding knowledge base..."
 echo
 echo "Running PentestFlow against Juice Shop..."
 .venv/bin/python -m app.main scan http://127.0.0.1:3000
+
+if [[ "${PENTESTFLOW_OPEN_REPORT:-1}" == "1" ]]; then
+  latest_report="$(ls -t reports/scan-*.html 2>/dev/null | head -n 1 || true)"
+  if [[ -n "$latest_report" ]]; then
+    echo
+    echo "Latest HTML report: $latest_report"
+    if command -v open >/dev/null 2>&1; then
+      open "$latest_report" >/dev/null 2>&1 || true
+    fi
+  fi
+fi

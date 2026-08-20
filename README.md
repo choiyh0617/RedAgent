@@ -27,6 +27,7 @@ PentestFlow is an MVP autonomous pentest assistant for authorized lab environmen
 If you just want the shortest path, use this:
 
 ```bash
+./scripts/pentestflow.sh doctor
 ./scripts/pentestflow.sh setup
 ./scripts/pentestflow.sh demo
 ```
@@ -40,9 +41,11 @@ On macOS you can also double-click:
 
 What changed:
 
+- `doctor` checks Python, `.venv`, Ollama, model, Docker, and env files
 - `setup` creates `.venv`, installs requirements, and copies local env files
 - `demo` starts Ollama automatically if it is installed but not running
 - `demo` pulls `llama3.2:latest` automatically if it is missing
+- `demo` opens the latest HTML report on macOS by default
 
 ### Juice Shop demo
 
@@ -60,6 +63,7 @@ What it does:
 - starts `bkimminich/juice-shop` on `http://127.0.0.1:3000` if needed
 - rebuilds the knowledge base
 - runs `PentestFlow` against Juice Shop
+- opens the newest HTML report after the scan on macOS
 
 ### Scan another authorized target
 
@@ -82,6 +86,7 @@ The scan will be blocked if the target is not inside the configured scope.
 ### One command reference
 
 ```bash
+./scripts/pentestflow.sh doctor
 ./scripts/pentestflow.sh demo
 ./scripts/pentestflow.sh setup
 ./scripts/pentestflow.sh scan http://your-authorized-target
