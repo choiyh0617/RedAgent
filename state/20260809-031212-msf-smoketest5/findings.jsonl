@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-09T03:12:13.511426+00:00", "job_id": "msf5", "command": "BOOTSNAP_IGNORE_DIRECTORIES=\"/usr/lib/mysql,/usr/lib/ssl,/usr/lib/llvm-21\" msfconsole -q -x \"version; exit\"", "pid_path": "/tmp/pentest-agent-jobs/msf5.pid", "out_path": "/tmp/pentest-agent-jobs/msf5.out", "started_at": 1786245133.5114105}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-09T03:12:25.021817+00:00", "job_id": "msf5", "elapsed": 11, "exit_code": 1}

@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-12T03:23:51.398120+00:00", "job_id": "cd-fix-test", "command": "cd /tmp && echo hello-from-cd && pwd", "pid_path": "/tmp/pentest-agent-jobs/cd-fix-test.pid", "out_path": "/tmp/pentest-agent-jobs/cd-fix-test.out", "started_at": 1786505031.3981068}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-12T03:23:52.196706+00:00", "job_id": "cd-fix-test", "elapsed": 0, "exit_code": 0}

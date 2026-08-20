@@ -1,0 +1,1 @@
+{"stage": "scanning", "event": "port_open", "target": "1.2.3.4", "ts": "2026-08-12T05:49:24.680002+00:00", "port": 80, "service": "http", "banner": "test"}

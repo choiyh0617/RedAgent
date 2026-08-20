@@ -1,0 +1,1 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-11T05:26:26.931482+00:00", "job_id": "racedbg", "command": "sleep 20", "pid_path": "/tmp/pentest-agent-jobs/racedbg.pid", "out_path": "/tmp/pentest-agent-jobs/racedbg.out", "started_at": 1786425986.9314618}

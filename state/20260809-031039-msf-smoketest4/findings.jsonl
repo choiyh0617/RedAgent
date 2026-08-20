@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-09T03:10:41.073911+00:00", "job_id": "msf4", "command": "echo kali | sudo -S msfconsole -q -x \"version; exit\" 2>&1", "pid_path": "/tmp/pentest-agent-jobs/msf4.pid", "out_path": "/tmp/pentest-agent-jobs/msf4.out", "started_at": 1786245041.0738835}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-09T03:11:16.437752+00:00", "job_id": "msf4", "elapsed": 34, "exit_code": 1}

@@ -1,0 +1,1 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-12T03:24:02.586543+00:00", "job_id": "linebuf-test", "command": "python3 -c \"import time\nfor i in range(4):\n    print(f'tick {i}')\n    time.sleep(2)\"", "pid_path": "/tmp/pentest-agent-jobs/linebuf-test.pid", "out_path": "/tmp/pentest-agent-jobs/linebuf-test.out", "started_at": 1786505042.5865312}

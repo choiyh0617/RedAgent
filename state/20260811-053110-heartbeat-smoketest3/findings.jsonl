@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-11T05:31:15.330228+00:00", "job_id": "smoketest-sleep3", "command": "sleep 20", "pid_path": "/tmp/pentest-agent-jobs/smoketest-sleep3.pid", "out_path": "/tmp/pentest-agent-jobs/smoketest-sleep3.out", "started_at": 1786426275.3302157}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-11T05:31:42.527494+00:00", "job_id": "smoketest-sleep3", "elapsed": 25, "exit_code": 0}

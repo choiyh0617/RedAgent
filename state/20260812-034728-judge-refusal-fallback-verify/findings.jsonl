@@ -1,0 +1,1 @@
+{"stage": "exploitation", "event": "judge_refused", "target": "1.2.3.4", "ts": "2026-08-12T03:47:28.871154+00:00", "port": 21, "exploit": "test exploit", "reason": "안전 정책 거부(테스트)"}

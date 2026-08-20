@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-11T03:39:52.673954+00:00", "job_id": "docker-pull-juiceshop", "command": "docker pull bkimminich/juice-shop 2>&1", "pid_path": "/tmp/pentest-agent-jobs/docker-pull-juiceshop.pid", "out_path": "/tmp/pentest-agent-jobs/docker-pull-juiceshop.out", "started_at": 1786419592.6739361}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-11T03:40:42.940352+00:00", "job_id": "docker-pull-juiceshop", "elapsed": 50, "exit_code": 0}

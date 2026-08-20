@@ -1,0 +1,2 @@
+{"stage": "scanning", "event": "port_open", "target": "1.2.3.4", "ts": "2026-08-12T04:00:50.937979+00:00", "port": 80, "service": "http", "banner": "test"}
+{"stage": "run_pipeline", "event": "interrupted", "target": "TestVM", "ts": "2026-08-12T04:00:50.938806+00:00"}

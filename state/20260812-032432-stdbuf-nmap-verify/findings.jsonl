@@ -1,0 +1,1 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-12T03:24:35.117733+00:00", "job_id": "nmap-linebuf-test", "command": "nmap -sV -T2 --stats-every 3s -p1-3000 192.168.56.101", "pid_path": "/tmp/pentest-agent-jobs/nmap-linebuf-test.pid", "out_path": "/tmp/pentest-agent-jobs/nmap-linebuf-test.out", "started_at": 1786505075.1176772}

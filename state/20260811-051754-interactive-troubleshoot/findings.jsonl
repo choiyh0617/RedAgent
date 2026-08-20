@@ -1,0 +1,1 @@
+{"stage": "mcp_interactive", "event": "tool_call", "target": "kali", "ts": "2026-08-11T05:17:54.086977+00:00", "tool": "check_vm_state"}

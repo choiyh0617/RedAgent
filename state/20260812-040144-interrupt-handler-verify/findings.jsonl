@@ -1,0 +1,2 @@
+{"stage": "scanning", "event": "port_open", "target": "9.9.9.9", "ts": "2026-08-12T04:01:44.220781+00:00", "port": 22, "service": "ssh", "banner": "OpenSSH test"}
+{"stage": "run_pipeline", "event": "interrupted", "target": null, "ts": "2026-08-12T04:01:46.803767+00:00"}

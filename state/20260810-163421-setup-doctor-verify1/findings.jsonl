@@ -1,0 +1,2 @@
+{"stage": "setup_doctor", "event": "tool_call", "target": null, "ts": "2026-08-10T16:34:24.636003+00:00", "tool": "check_vm_state", "input": {"vm_name": "AD-DC01"}}
+{"stage": "setup_doctor", "event": "tool_call", "target": null, "ts": "2026-08-10T16:34:24.735438+00:00", "tool": "take_screenshot", "input": {"vm_name": "AD-DC01"}}

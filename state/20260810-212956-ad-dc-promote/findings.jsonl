@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-10T21:29:57.657053+00:00", "job_id": "promote-dc", "command": "python3 /tmp/run_promote.py", "pid_path": "/tmp/pentest-agent-jobs/promote-dc.pid", "out_path": "/tmp/pentest-agent-jobs/promote-dc.out", "started_at": 1786397397.6570315}
+{"stage": "job_runner", "event": "job_hard_timeout", "target": null, "ts": "2026-08-10T21:40:07.067238+00:00", "job_id": "promote-dc", "elapsed": 608}

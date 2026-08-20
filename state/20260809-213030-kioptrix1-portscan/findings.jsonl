@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-09T21:30:31.744124+00:00", "job_id": "scan1", "command": "nmap -sV -Pn -T4 -p- 192.168.56.100", "pid_path": "/tmp/pentest-agent-jobs/scan1.pid", "out_path": "/tmp/pentest-agent-jobs/scan1.out", "started_at": 1786311031.7441125}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-09T21:31:05.180875+00:00", "job_id": "scan1", "elapsed": 33, "exit_code": 0}

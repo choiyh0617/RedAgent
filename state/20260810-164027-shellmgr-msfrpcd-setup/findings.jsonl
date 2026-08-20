@@ -1,0 +1,1 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-10T16:40:30.444070+00:00", "job_id": "msfrpcd-daemon", "command": "msfrpcd -P labpass123 -a 192.168.56.101 -p 55553", "pid_path": "/tmp/pentest-agent-jobs/msfrpcd-daemon.pid", "out_path": "/tmp/pentest-agent-jobs/msfrpcd-daemon.out", "started_at": 1786380030.4440374}

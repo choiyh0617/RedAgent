@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>Pentest Report 20260813-163210-juice-shop-local-followup</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem; color: #17202a; background: #f8fafc; }
+    h1, h2, h3 { color: #0f172a; }
+    table { width: 100%; border-collapse: collapse; background: #fff; margin-bottom: 1.5rem; }
+    th, td { border: 1px solid #d1d5db; padding: 0.6rem; text-align: left; vertical-align: top; }
+    th { background: #e2e8f0; }
+    .card { background: #fff; border: 1px solid #d1d5db; padding: 1rem; margin-bottom: 1rem; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    pre { background: #0f172a; color: #e2e8f0; padding: 1rem; overflow-x: auto; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <h1>Pentest Report</h1>
+  <div class="card">
+    <h2>Summary</h2>
+    <p>## Summary</p><p>- 대상: 127.0.0.1</p><p>- 진행된 단계: exploitation, web_agent</p><p>- 총 findings: 6</p>
+  </div>
+  <div class="grid">
+    <div class="card">
+      <h2>Open Ports</h2>
+      <table>
+        <thead><tr><th>Target</th><th>Port</th><th>Service</th><th>Banner</th></tr></thead>
+        <tbody><tr><td colspan='4'>none</td></tr></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h2>Credentials</h2>
+      <table>
+        <thead><tr><th>Username</th><th>Domain</th><th>Type</th><th>Source</th><th>Validated</th></tr></thead>
+        <tbody><tr><td colspan='5'>none</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Exploitation Attempts</h2>
+    <table>
+      <thead><tr><th>Target</th><th>Port</th><th>Status</th><th>Exploit</th><th>Method</th></tr></thead>
+      <tbody><tr><td>127.0.0.1</td><td>3000</td><td>성공</td><td>SQL Injection (email, /rest/user/login)</td><td>SQLi(local-known-payload)</td></tr></tbody>
+    </table>
+  </div>
+  <div class="card">
+    <h2>Web Post-Exploitation</h2>
+    <section class='card'><h3>127.0.0.1</h3><p><strong>테스트 과정</strong></p><ul><li>try_login_bypass(local-known-payload) (/rest/user/login)</li><li>list_users (/api/Users)</li><li>application_version (/rest/admin/application-version)</li><li>basket_items (/api/BasketItems/)</li></ul><p><strong>성공</strong>: 로컬 Juice Shop에서 로그인 SQLi로 관리자 JWT를 획득했고, 인증된 관리자 API 접근까지 확인했다. list_users: {&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;username&quot;:&quot;&quot;,&quot;email&quot;:&quot;admin@juice-sh.op&quot;,&quot;role&quot;:&quot;admin&quot;,&quot;deluxeToken&quot;:&quot;&quot;,&quot;lastLoginIp&quot;:&quot;&quot;,&quot;profileImage&quot;:&quot;assets/public/images/uploads/defaultAdmin.png&quot;,&quot;isActive&quot;:true,&quot;createdAt&quot;:&quot;2026-08-13T03:14:54.142Z&quot;,&quot;upda
+... (생략됨, 원래 6342자) / application_version: {&quot;version&quot;:&quot;20.1.1&quot;} / basket_items: {&quot;status&quot;:&quot;success&quot;,&quot;data&quot;:[{&quot;ProductId&quot;:1,&quot;BasketId&quot;:1,&quot;id&quot;:1,&quot;quantity&quot;:2,&quot;createdAt&quot;:&quot;2026-08-13T03:14:54.899Z&quot;,&quot;updatedAt&quot;:&quot;2026-08-13T03:14:54.899Z&quot;},{&quot;ProductId&quot;:2,&quot;BasketId&quot;:1,&quot;id&quot;:2,&quot;quantity&quot;:3,&quot;createdAt&quot;:&quot;2026-08-13T03:14:54.899Z&quot;,&quot;updated
+... (생략됨, 원래 1045자)</p></section>
+  </div>
+  <div class="card">
+    <h2>Flags / Proof</h2>
+    <p>flag 없음</p>
+  </div>
+</body>
+</html>

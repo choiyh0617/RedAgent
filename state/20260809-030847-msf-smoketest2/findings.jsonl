@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-09T03:08:48.630176+00:00", "job_id": "msf2", "command": "DISABLE_BOOTSNAP=1 msfconsole -q -x \"version; exit\"", "pid_path": "/tmp/pentest-agent-jobs/msf2.pid", "out_path": "/tmp/pentest-agent-jobs/msf2.out", "started_at": 1786244928.630164}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-09T03:09:00.508094+00:00", "job_id": "msf2", "elapsed": 11, "exit_code": 1}

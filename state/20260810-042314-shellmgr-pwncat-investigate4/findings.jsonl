@@ -1,0 +1,1 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-10T04:23:17.820023+00:00", "job_id": "pwncat-listener-test4", "command": "pwncat-cs -lp 4447", "pid_path": "/tmp/pentest-agent-jobs/pwncat-listener-test4.pid", "out_path": "/tmp/pentest-agent-jobs/pwncat-listener-test4.out", "started_at": 1786335797.8200037}

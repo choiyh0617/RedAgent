@@ -1,0 +1,4 @@
+{"stage": "scanning", "event": "port_open", "target": "192.168.56.104", "ts": "2026-08-09T00:15:43.794727+00:00", "port": 80, "service": "http", "banner": "Apache httpd 2.0.52 ((CentOS))"}
+{"stage": "scanning", "event": "port_open", "target": "192.168.56.104", "ts": "2026-08-09T00:15:43.806104+00:00", "port": 111, "service": "rpcbind", "banner": "2 (RPC #100000)"}
+{"stage": "scanning", "event": "platform_detected", "target": "192.168.56.104", "ts": "2026-08-09T00:15:43.808243+00:00", "platform": "unknown"}
+{"stage": "scanning", "event": "http_enum", "target": "192.168.56.104", "ts": "2026-08-09T00:16:43.852787+00:00", "port": 80, "result": {"error": "Command '['C:\\\\Program Files\\\\Oracle\\\\VirtualBox\\\\VBoxManage.exe', 'guestcontrol', 'kali', 'run', '--username', 'kali', '--password', 'kali', '--exe', '/bin/bash', '--', '-c', 'whatweb -a 3 http://192.168.56.104:80']' timed out after 60 seconds"}}

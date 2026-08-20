@@ -1,0 +1,1 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-11T05:28:07.030140+00:00", "job_id": "touchjob", "command": "touch /tmp/pentest-agent-jobs/JOBRUNNER_TOUCH_OK", "pid_path": "/tmp/pentest-agent-jobs/touchjob.pid", "out_path": "/tmp/pentest-agent-jobs/touchjob.out", "started_at": 1786426087.0301235}

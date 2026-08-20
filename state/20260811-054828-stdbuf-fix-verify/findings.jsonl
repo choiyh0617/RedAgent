@@ -1,0 +1,1 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-11T05:48:30.760833+00:00", "job_id": "nmap-stdbuf-check", "command": "nmap -sV -T4 -Pn --stats-every 2s -p1-1000 192.168.56.105", "pid_path": "/tmp/pentest-agent-jobs/nmap-stdbuf-check.pid", "out_path": "/tmp/pentest-agent-jobs/nmap-stdbuf-check.out", "started_at": 1786427310.7608023}

@@ -1,0 +1,1 @@
+{"stage": "exploitation", "event": "attempt_failed", "target": "127.0.0.1", "ts": "2026-08-13T16:31:22.396224+00:00", "port": 3000, "exploit": "SQL Injection (known payload /rest/user/login)", "method": "SQLi(local-known-payload)", "reason": "알려진 로컬 로그인 우회 페이로드로 SQLi를 재현하지 못함"}

@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-09T21:27:58.690232+00:00", "job_id": "search1", "command": "msfconsole -q -x \"search cups; search apache 2.0.52; search cve:2004-0942; search type:exploit platform:linux openssh; exit\"", "pid_path": "/tmp/pentest-agent-jobs/search1.pid", "out_path": "/tmp/pentest-agent-jobs/search1.out", "started_at": 1786310878.690219}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-09T21:28:21.772648+00:00", "job_id": "search1", "elapsed": 22, "exit_code": 0}

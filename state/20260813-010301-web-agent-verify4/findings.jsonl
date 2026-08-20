@@ -1,0 +1,17 @@
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:03:06.088755+00:00", "port": 80, "tool": "try_login_bypass"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:03:07.542033+00:00", "port": 80, "tool": "try_login_bypass"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:03:11.167774+00:00", "port": 80, "tool": "test_command_injection"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:03:17.096344+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:03:23.889051+00:00", "port": 80, "tool": "search_for_flags"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:03:28.982582+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:03:57.341938+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:04:01.886377+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:04:17.615206+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:04:50.236167+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:04:57.907842+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:05:03.552348+00:00", "port": 80, "tool": "search_for_flags"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:05:07.798265+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:05:41.386629+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:05:48.446709+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "tool_call", "target": "192.168.56.104", "ts": "2026-08-13T01:05:57.713830+00:00", "port": 80, "tool": "run_injected_command"}
+{"stage": "web_agent", "event": "exploit_incomplete", "target": "192.168.56.104", "ts": "2026-08-13T01:06:00.637242+00:00", "port": 80}

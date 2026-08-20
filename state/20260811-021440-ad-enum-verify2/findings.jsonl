@@ -1,0 +1,2 @@
+{"stage": "ad_enum", "event": "asrep_roast_targets", "target": "192.168.56.106", "ts": "2026-08-11T02:15:41.725427+00:00", "domain": "goadlab.local", "usernames_tried": 3, "raw_output": ""}
+{"stage": "ad_enum", "event": "kerberoast_targets", "target": "192.168.56.106", "ts": "2026-08-11T02:15:44.391744+00:00", "domain": "goadlab.local", "raw_output": "Impacket v0.14.0.dev0 - Copyright Fortra, LLC and its affiliated companies \n\nNo entries found!\n"}

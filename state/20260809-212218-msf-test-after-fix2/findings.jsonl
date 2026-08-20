@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-09T21:22:20.217753+00:00", "job_id": "msf-retest2", "command": "msfconsole -q -x \"version; exit\"", "pid_path": "/tmp/pentest-agent-jobs/msf-retest2.pid", "out_path": "/tmp/pentest-agent-jobs/msf-retest2.out", "started_at": 1786310540.2177389}
+{"stage": "job_runner", "event": "job_finished", "target": null, "ts": "2026-08-09T21:23:05.561860+00:00", "job_id": "msf-retest2", "elapsed": 44, "exit_code": 1}

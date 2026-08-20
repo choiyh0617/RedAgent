@@ -1,0 +1,1 @@
+{"stage": "mcp_interactive", "event": "tool_call", "target": null, "ts": "2026-08-11T05:17:41.101946+00:00", "tool": "list_vms"}

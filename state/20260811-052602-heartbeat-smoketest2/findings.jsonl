@@ -1,0 +1,2 @@
+{"stage": "job_runner", "event": "job_started", "target": null, "ts": "2026-08-11T05:26:05.023939+00:00", "job_id": "smoketest-sleep2", "command": "sleep 20", "pid_path": "/tmp/pentest-agent-jobs/smoketest-sleep2.pid", "out_path": "/tmp/pentest-agent-jobs/smoketest-sleep2.out", "started_at": 1786425965.0239122}
+{"stage": "job_runner", "event": "job_died_unexpectedly", "target": null, "ts": "2026-08-11T05:26:06.085766+00:00", "job_id": "smoketest-sleep2", "elapsed": 0, "tail": "\n"}
